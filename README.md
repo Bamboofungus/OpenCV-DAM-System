@@ -9,14 +9,14 @@ Video used to test program: https://drive.google.com/file/d/1qktrlR4CitGu-efn7M3
 How to use:
 
 1. Call using command line arguments:
-	 Flycircadian.py (<PATHTOFILE>|<cameraID>) (int <FramesToRun>) (<CSVFilename> to save to)
+	 Flycircadian.py ( PATHTOFILE | cameraID ) (int FramesToRun ) ( CSVFilename to save to)
 	 EXAMPLE FOR VIDEO STREAM: Flycircadian.py Tests/flyvideo1.avi 3600 flys.csv 
 	 EXAMPLE FOR CAMERA STREAM: Flycircadian.py 0 endless flys.csv 
 	 
-	 <PATHTOFILE> should be the path to file or just the filename if in same directory
-	 <cameraID> should be an integer ID of the camera connected to the laptop if reading from camera
-	 <FramesToRun>: Frames to run program, should be "endless" if running indefinitely
-	 <CSVFilename>: Name of csv filename to save to, program will append '.csv' to end automatically
+	 PATHTOFILE: should be the path to file or just the filename if in same directory
+	 cameraID: should be an integer ID of the camera connected to the laptop if reading from camera
+	 FramesToRun: Frames to run program, should be "endless" if running indefinitely
+	 CSVFilename: Name of csv filename to save to, program will append '.csv' to end automatically
 	 
 	 !WARNING!: Program will overwrite csv files with filename in directory without warning, please move csv files
 	        out of directory after each experiment
