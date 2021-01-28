@@ -4,8 +4,10 @@ README IS WIP, REVISE LATER
 
 This project implements an easy to set up Drosophila Activity Monitoring (DAM) system using OpenCV and a low spec 1 FPS camera. It wa commissioned by a sleep study lab in University of Tsukuba, Japan.
 
+Video used to test program: https://drive.google.com/file/d/1qktrlR4CitGu-efn7M3S3IUm1zbLW9oH/view?usp=sharing
 
 How to use:
+
 1. Call using command line arguments:
 	 Flycircadian.py (<PATHTOFILE>|<cameraID>) (int <FramesToRun>) (<CSVFilename> to save to)
 	 EXAMPLE FOR VIDEO STREAM: Flycircadian.py Tests/flyvideo1.avi 3600 flys.csv 
