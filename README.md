@@ -7,6 +7,7 @@ README IS WIP, WILL REVISE LATER
 This project emulates a Drosophila Activity Monitoring (DAM) system using OpenCV and a low spec 1 FPS camera. It was commissioned by a sleep study lab in University of Tsukuba, Japan. Its is able to analyze both a camera stream and a video file passed to it as arguments.
 
 **Read about what a DAM system is here**: https://blogs.brandeis.edu/flyonthewall/fly-life-watching-fruit-flies-sleep/
+
 **Video used to test program**: https://drive.google.com/file/d/1qktrlR4CitGu-efn7M3S3IUm1zbLW9oH/view?usp=sharing
 
 
