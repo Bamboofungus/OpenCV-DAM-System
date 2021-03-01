@@ -21,6 +21,7 @@ This project emulates a Drosophila Activity Monitoring (DAM) system using OpenCV
 * **CSVFilename**: Name of csv filename to save to, program will append '.csv' to end automatically
 
 **EXAMPLE FOR VIDEO STREAM**: `Flycircadian.py Tests/flyvideo1.avi 3600 flys.csv`
+
 **EXAMPLE FOR CAMERA STREAM**: `Flycircadian.py 0 endless flys.csv`
 	 
 ***WARNING: Program will overwrite csv files with filename in directory without warning, please move csv files
