@@ -13,9 +13,9 @@ This project emulates a Drosophila Activity Monitoring (DAM) system using OpenCV
 ## How to use:
 
 ### 1. Call using command line arguments:
-* `Flycircadian.py ( PATHTOFILE | cameraID ) ( int FramesToRun) ( CSVFilename )`
-* EXAMPLE FOR VIDEO STREAM: `Flycircadian.py Tests/flyvideo1.avi 3600 flys.csv`
-* EXAMPLE FOR CAMERA STREAM: `Flycircadian.py 0 endless flys.csv`
+	`Flycircadian.py ( PATHTOFILE | cameraID ) ( int FramesToRun) ( CSVFilename )`
+	EXAMPLE FOR VIDEO STREAM: `Flycircadian.py Tests/flyvideo1.avi 3600 flys.csv`
+	EXAMPLE FOR CAMERA STREAM: `Flycircadian.py 0 endless flys.csv`
 	 
 * **PATHTOFILE**: should be the path to file or just the filename if in same directory
 * **cameraID**: should be an integer ID of the camera connected to the laptop if reading from camera
