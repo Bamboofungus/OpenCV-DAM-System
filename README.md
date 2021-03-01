@@ -11,7 +11,7 @@ Video used to test program: https://drive.google.com/file/d/1qktrlR4CitGu-efn7M3
 ## How to use:
 
 1. Call using command line arguments:
-	* `Flycircadian.py ( PATHTOFILE | cameraID ) (int FramesToRun ) ( CSVFilename to save to)`
+	* `Flycircadian.py ( PATHTOFILE | cameraID ) ( int FramesToRun) ( CSVFilename )`
 	* EXAMPLE FOR VIDEO STREAM: `Flycircadian.py Tests/flyvideo1.avi 3600 flys.csv`
 	* EXAMPLE FOR CAMERA STREAM: `Flycircadian.py 0 endless flys.csv`
 	 
