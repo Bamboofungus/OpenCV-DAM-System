@@ -25,7 +25,8 @@ This project emulates a Drosophila Activity Monitoring (DAM) system using OpenCV
 ***WARNING: Program will overwrite csv files with filename in directory without warning, please move csv files
 	        out of directory after each experiment***
 	        
-### 2. Partition flies in initial frame by dragging boxes with mouse and labeling in popup UI 
+### 2. Partition flies in initial frame by dragging boxes with mouse and labeling in popup UI
+![Partitioning UI](./PartitioningUI.png)
 * Strange results may occur if any of the boxes overlap
 * Can undo previous results with Undo button
 * Press finish button when done
