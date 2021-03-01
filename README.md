@@ -35,5 +35,5 @@ This project emulates a Drosophila Activity Monitoring (DAM) system using OpenCV
 ### 3. Let camera run with program for the duration of the experiment, avoid disturbing lighting condition
 * Frames to set flies to asleep can be changed by changing value of TIMEOUT inside Flycircardian.py
     
-### 4. Program will output results and outliers into .csv format
+### 4. Program will output results into .csv format
 * Program will only save to a csv file every 5 new entrys to the log by default
