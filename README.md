@@ -28,7 +28,7 @@ This project emulates a Drosophila Activity Monitoring (DAM) system using OpenCV
 ### 2. Partition flies in initial frame by dragging boxes with mouse and labeling in popup UI
 ![Partitioning UI](./PartitioningUI.png)
 * Strange results may occur if any of the boxes overlap
-* Please do not click cancel on popup window for now
+* Please do not click cancel on labeling window for now
     
 ### 3. Let camera run with program for the duration of the experiment, avoid disturbing lighting condition
 * Frames to set flies to asleep can be changed by changing value of TIMEOUT inside Flycircardian.py
