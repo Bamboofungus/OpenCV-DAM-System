@@ -4,7 +4,7 @@ README IS WIP, WILL REVISE LATER
 
 ## Introduction
 
-This project implements an easy to set up Drosophila Activity Monitoring (DAM) system using OpenCV and a low spec 1 FPS camera. It was commissioned by a sleep study lab in University of Tsukuba, Japan.
+This project implements an easy to set up Drosophila Activity Monitoring (DAM) system using OpenCV and a low spec 1 FPS camera. It was commissioned by a sleep study lab in University of Tsukuba, Japan. Its is able to analyze both a camera stream and a video file passed to it as arguments.
 
 Video used to test program: https://drive.google.com/file/d/1qktrlR4CitGu-efn7M3S3IUm1zbLW9oH/view?usp=sharing
 
@@ -24,15 +24,15 @@ Video used to test program: https://drive.google.com/file/d/1qktrlR4CitGu-efn7M3
 	        out of directory after each experiment***
 	        
 ### 2. Partition flies in initial frame by dragging boxes with mouse and labeling in popup UI 
-	* Strange results may occur if any of the boxes overlap
-	* Undo previous results with Undo button
-	* Press finish button when done
-	* Please do not click cancel on popup window for now
+* Strange results may occur if any of the boxes overlap
+* Can undo previous results with Undo button
+* Press finish button when done
+* Please do not click cancel on popup window for now
     
 ### 3. Let camera run with program for the duration of the experiment, avoid disturbing lighting condition
 
 ### 4. Marks flies as asleep after showing no movement for 300 frames
-	* Frames can be changed by changing value of TIMEOUT
+* Frames can be changed by changing value of TIMEOUT inside Flycircardian.py
     
 ### 5. Program will output results and outliers into .csv format
-	* Program will only save to a csv file every 5 new entrys to the log.
+* Program will only save to a csv file every 5 new entrys to the log by default
