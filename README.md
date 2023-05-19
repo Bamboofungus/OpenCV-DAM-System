@@ -1,6 +1,4 @@
 # OpenCV-DAM-System
-***NOTE: PROJECT IS ABANDONED FOR NOW AS LAB NO LONGER REQUIRES PROGRAM***
-
 ## Introduction
 
 This project emulates a Drosophila Activity Monitoring (DAM) system using OpenCV and a low spec 1 FPS camera. It was commissioned by a sleep study lab in University of Tsukuba, Japan. Its is able to analyze both a camera stream and a video file passed to it as arguments.
